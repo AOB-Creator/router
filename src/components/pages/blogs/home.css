@@ -1,0 +1,23 @@
+.home {
+  height: 300vh;
+  background-color: rgb(44, 122, 190);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.card {
+  background-color: aliceblue;
+  height: 300px;
+}
+.card a {
+  color: brown;
+}
+
+.card .desc {
+  font-size: 12px;
+}

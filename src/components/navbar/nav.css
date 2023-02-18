@@ -1,0 +1,28 @@
+.navbar {
+  background-color: black;
+}
+
+.nav {
+  height: 13vh;
+
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 20px;
+}
+.nav ul.menus {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+a {
+  color: aliceblue;
+  font-size: 14px;
+  text-decoration: none;
+}
+.menus li {
+  margin-left: 15px;
+}
