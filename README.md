@@ -59,6 +59,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 ### Advanced Configuration
 
+
+
+
+git clone https://github.com/RizwanMunawar/yolov7-pose-estimation.git
+cd yolov7-pose-estimation
+
+### For Linux Users
+python3 -m venv psestenv
+source psestenv/bin/activate
+
+pip install --upgrade pip
+
+pip install -r requirements.txt
+
+#For WebCam
+python pose-estimate.py --source 0 --view-img
+
+
+
+
+
+
+
+
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
